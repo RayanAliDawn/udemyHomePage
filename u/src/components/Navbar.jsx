@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React, useState } from "react";
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -98,7 +98,7 @@ export default function Navbar() {
                             ))}
                         </Menu>
                     </Box>
-                    <Typography component='a' sx={{ display: { xs: 'none', sm: 'block' } }} href="/"><img src={ne} alt="Udemy" height='40' /></Typography>
+                    <Typography component='a' href="/"><img src={ne} alt="Udemy" height='40' /></Typography>
 
                     <Box>
                         <Stack direction='row' sx={{ color: 'black' }} >
