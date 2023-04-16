@@ -121,13 +121,17 @@ export default function Navbar() {
 
 
                     <a href="/"><img src={ne} alt="Udemy" height='40' /></a>
-                    <span    >Categories</span>
+                    <span style={{ cursor: 'pointer' }}  >Categories</span>
                     <SearchBox>
-                        <SearchIcon sx={{ padding: '0.6rem' }} />
-                        <Input sx={{ padding: '0.6rem', width: '100%' }} placeholder='Search for anything' />
+                        <SearchIcon fontSize="medium" sx={{ color: 'grey', marginLeft: '1rem' }} />
+                        <Input sx={{
+                            padding: '0.6rem', width: '100%', marginX: '1rem', '&:before': {
+                                borderBottom: 'none',
+                            },
+                        }} placeholder='Search for anything' />
                     </SearchBox>
-                    <span   >Udemy Business</span>
-                    <span   >Teach On Udemy</span>
+                    <span style={{ cursor: 'pointer' }}   >Udemy Business</span>
+                    <span style={{ cursor: 'pointer' }}  >Teach On Udemy</span>
                     <Box>
 
 
@@ -142,7 +146,7 @@ export default function Navbar() {
                     </Box>
                     <Stack spacing={1} direction="row">
                         <Button variant="outlined" sx={{ color: 'black', border: '1px solid #1c1d1f', borderRadius: '0%', fontSize: "0.75rem" }}>Log In</Button>
-                        <Button sx={{ backgroundColor: 'black', color: 'white', borderRadius: '0%', fontSize: "0.75rem" }} >Sign Up</Button>
+                        <Button sx={{ backgroundColor: 'black', color: 'white', borderRadius: '0%', fontSize: "0.75rem", border: '1px solid gray' }} >Sign Up</Button>
                         <Button sx={{ color: 'black', border: '1px solid #1c1d1f', borderRadius: '0%' }} > <LanguageIcon /> </Button>
 
 
