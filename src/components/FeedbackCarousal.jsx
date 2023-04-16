@@ -55,7 +55,7 @@ export default function FeedbackCarousal() {
 
     return (
         <Box sx={{ marginTop: '4rem', backgroundColor: '#f7f9fa', marginX: { xs: '10%', sm: '0%' }, letterSpacing: '0.1px', lineHeight: '1.5' }}>
-            <Container >
+            <Container sx={{ paddingBottom: '3rem' }} >
 
                 <Typography sx={{ lineHeight: '1.1', marginY: '2rem', paddingTop: '2rem' }}><h4>How learners like you are achieving their goals</h4></Typography>
                 <Swiper modules={[Navigation]}
@@ -85,22 +85,22 @@ export default function FeedbackCarousal() {
                 >
                     <SwiperSlide>
                         <Box sx={{ maxWidth: '350px', margin: '0 auto' }} >
-                            <Card variant="outlined" w>{card}</Card>
+                            <Card >{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
-                            <Card variant="outlined" w>{card}</Card>
+                            <Card >{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
-                            <Card variant="outlined" w>{card}</Card>
+                            <Card >{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
                         <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
-                            <Card variant="outlined" w>{card}</Card>
+                            <Card>{card}</Card>
                         </Box>
                     </SwiperSlide>
                 </Swiper>
