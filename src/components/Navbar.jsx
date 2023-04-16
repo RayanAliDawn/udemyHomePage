@@ -37,11 +37,6 @@ export default function Navbar() {
         backgroundColor: 'white',
         alignItems: 'center',
 
-
-
-
-
-
     });
 
     const SearchBox = styled('div')({
