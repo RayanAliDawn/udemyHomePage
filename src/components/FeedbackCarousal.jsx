@@ -54,7 +54,7 @@ export default function FeedbackCarousal() {
     );
 
     return (
-        <Box sx={{ marginTop: '4rem', backgroundColor: '#f7f9fa', marginBottom: '100%', marginX: { xs: '10%', sm: '0%' }, letterSpacing: '0.1px', lineHeight: '1.5' }}>
+        <Box sx={{ marginTop: '4rem', backgroundColor: '#f7f9fa', marginX: { xs: '10%', sm: '0%' }, letterSpacing: '0.1px', lineHeight: '1.5' }}>
             <Container >
 
                 <Typography sx={{ lineHeight: '1.1', marginY: '2rem', paddingTop: '2rem' }}><h4>How learners like you are achieving their goals</h4></Typography>
@@ -62,36 +62,44 @@ export default function FeedbackCarousal() {
                     breakpoints={{
 
                         0: {
+                            slidesPerView: 1,
                             spaceBetween: 200,
                         },
-                        700: {
+                        600: {
+                            slidesPerView: 2,
                             spaceBetween: 40,
+
+                        },
+                        700: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+
                         }
 
 
                     }}
                     navigation loop={true}
 
-                    slidesPerView={3}
+
 
                 >
                     <SwiperSlide>
-                        <Box sx={{ minWidth: 200 }} >
+                        <Box sx={{ maxWidth: '350px', margin: '0 auto' }} >
                             <Card variant="outlined" w>{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Box sx={{ minWidth: 200 }}>
+                        <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
                             <Card variant="outlined" w>{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Box sx={{ minWidth: 200 }}>
+                        <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
                             <Card variant="outlined" w>{card}</Card>
                         </Box>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <Box sx={{ minWidth: 200 }}>
+                        <Box sx={{ maxWidth: '350px', margin: '0 auto' }}>
                             <Card variant="outlined" w>{card}</Card>
                         </Box>
                     </SwiperSlide>

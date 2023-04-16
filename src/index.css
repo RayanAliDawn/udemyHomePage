@@ -71,4 +71,24 @@ body{
 .CardBoxInner{
   margin-top: 2rem;
 }
+.footera   {
+  color: white;
+  margin-left: 1.2rem;
+  
 
+}
+.footera a span   {
+ font-size: small;
+  
+
+}
+.footerforlarge{
+  color: white;
+  padding: 2rem;
+}
+
+.imgg{
+ width: inherit;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}

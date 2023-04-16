@@ -22,7 +22,7 @@ import JavaScript from '../assets/JavaScript.png'
 import 'swiper/css';
 export default function CardBox() {
     return (
-        <Container sx={{ border: '1px solid #A8A8A8', padding: '3rem', marginY: '2.5%' }} >
+        <Container sx={{ border: '1px solid #A8A8A8', marginY: '2.5rem' }} >
             <Box >
                 <Box sx={{ display: { xs: 'none', ssm: 'block' } }}>
                     <h2 className='CardBoxInner'>Expand your career opportunities with Python</h2>
@@ -63,7 +63,7 @@ export default function CardBox() {
                     onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide>  <div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -88,7 +88,7 @@ export default function CardBox() {
                         </Card>
                     </div></SwiperSlide>
                     <SwiperSlide> <div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -113,7 +113,7 @@ export default function CardBox() {
                         </Card>
                     </div></SwiperSlide>
                     <SwiperSlide>  <div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -138,7 +138,7 @@ export default function CardBox() {
                         </Card>
                     </div></SwiperSlide>
                     <SwiperSlide><div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -163,7 +163,7 @@ export default function CardBox() {
                         </Card>
                     </div></SwiperSlide>
                     <SwiperSlide> <div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -188,7 +188,7 @@ export default function CardBox() {
                         </Card>
                     </div></SwiperSlide>
                     <SwiperSlide> <div>
-                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345 }}>
+                        <Card sx={{ maxWidth: 345, boxShadow: 'none', maxHeight: 345, margin: '0 auto' }}>
                             <CardActionArea>
                                 <CardMedia
                                     component="img"
@@ -265,7 +265,7 @@ export function Excel() {
                 onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -290,7 +290,7 @@ export function Excel() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -315,7 +315,7 @@ export function Excel() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -340,7 +340,7 @@ export function Excel() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -365,7 +365,7 @@ export function Excel() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -390,7 +390,7 @@ export function Excel() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -470,7 +470,7 @@ export function Web() {
                 onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -495,7 +495,7 @@ export function Web() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -520,7 +520,7 @@ export function Web() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -545,7 +545,7 @@ export function Web() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -570,7 +570,7 @@ export function Web() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -595,7 +595,7 @@ export function Web() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -677,7 +677,7 @@ export function JavaScriptButton() {
                 onSwiper={(swiper) => console.log(swiper)}
             >
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -702,7 +702,7 @@ export function JavaScriptButton() {
                     </Card>
                 </div></SwiperSlide>
                 <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -726,7 +726,7 @@ export function JavaScriptButton() {
                         </CardActionArea>
                     </Card>
                 </div></SwiperSlide>  <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -750,7 +750,7 @@ export function JavaScriptButton() {
                         </CardActionArea>
                     </Card>
                 </div></SwiperSlide>  <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -774,7 +774,7 @@ export function JavaScriptButton() {
                         </CardActionArea>
                     </Card>
                 </div></SwiperSlide>  <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
@@ -798,7 +798,7 @@ export function JavaScriptButton() {
                         </CardActionArea>
                     </Card>
                 </div></SwiperSlide>  <SwiperSlide>  <div>
-                    <Card sx={{ maxWidth: 345, boxShadow: 'none' }}>
+                    <Card sx={{ maxWidth: 345, boxShadow: 'none', margin: '0 auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
